@@ -1,0 +1,20 @@
+{
+    "name": "Education Analytics",
+    "short_name": "EducationAnalytics",
+    "description": "An Education Platform where user can get resources related to comptetive exams, entrance exams, counselling updates.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#4285f4",
+    "theme_color": "#2875f4",
+    "orientation": "portrait-primary",
+    "icons": [{
+        "src": "/app-assets/images/pages/icon.png",
+        "type": "image/png",
+        "sizes": "624x624"
+    }, {
+        "src": "/app-assets/images/pages/maskable_icon.png",
+        "type": "image/png",
+        "sizes": "312x312",
+        "purpose": "any maskable"
+    }]
+}

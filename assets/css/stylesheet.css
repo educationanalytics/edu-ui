@@ -1,0 +1,162 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+@media (min-width:770px) {
+    .main-menu {
+        display: none !important;
+    }
+    .navbar-wrapper.mobile{
+        display: none;
+    }
+}
+@media (max-width:770px) {
+    .navbar-container .logo{
+        display: none;
+    }
+    .navbar-brand .brand-text {
+      font-size: 1.5rem;
+      display: inline !important;
+    }
+}
+
+/* particle css */
+.top-container{
+    width: 100%;
+    height: 60%;
+    background-color: #25535d;
+    position: relative;
+    /* background-image: url(''); */
+    /* background-size: cover; */
+    /* background-position: 50% 50%; */
+    /* background-repeat: no-repeat; */
+}
+
+  /* search btn */
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 0px solid #00B4CC;
+  border-right: none;
+  padding: 16px;
+  /* height: 20px; */
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 67px;
+  height: 52px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+  outline: none;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 50%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+marquee{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.bg-college{
+  background-image: url("../../app-assets/images/pages/college1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.overlay{
+  background-color: rgba(0, 0, 0, 0.55);
+  height: 100%;
+}
+
+.college-brand{
+  width: 54%;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  /* transform: translate(-50%, -50%); */
+}
+
+.rating i{
+  color: var(--yellow);
+}
+
+.college-review p{
+  text-align: justify;
+}
+
+.naman-image{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(201, 235, 110);
+  border-radius: 50%;
+  font-size: .875rem;
+  font-weight: 600;
+  border: 1px solid #d2d2d2;
+  width: 35px;
+  height: 35px;
+  min-width: 28px;
+  min-height: 28px;
+  margin-right: 10px;
+}
+
+.student.rating{
+  font-size: .7rem;
+}
+
+@media (max-width:700px) {
+  .college-brand{
+    width: 100%;
+    position: static;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    font-size: .9rem;
+  }
+  .college-brand img{
+    width: 160px;
+  }
+  .college-brand h1{
+    font-size: 1.7rem;
+    padding-top: 5px;
+  }
+  .college-brand h4{
+    /* max-width: 200px; */
+    text-align: justify;
+    font-size: .8rem;
+    padding: 0 10px 0 10px;
+  }
+}
