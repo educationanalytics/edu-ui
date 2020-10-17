@@ -2,7 +2,7 @@
     "name": "Education Analytics",
     "short_name": "EducationAnalytics",
     "description": "An Education Platform where user can get resources related to comptetive exams, entrance exams, counselling updates.",
-    "start_url": "/",
+    "start_url": "/edu-ui",
     "display": "standalone",
     "background_color": "#4285f4",
     "theme_color": "#2875f4",
